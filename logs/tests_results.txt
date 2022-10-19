@@ -1,0 +1,40 @@
+test_get_number_of_char (__main__.TestExercice) ... ERROR
+test_get_number_of_words (__main__.TestExercice) ... ERROR
+test_pair (__main__.TestExercice) ... ok
+test_remove_third_char (__main__.TestExercice) ... ok
+test_replace_char (__main__.TestExercice) ... ERROR
+
+======================================================================
+ERROR: test_get_number_of_char (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\salma\OneDrive\Bureau\Polytechnique\chapitre-04-Szgl003\test_exercice.py", line 59, in test_get_number_of_char
+    output = [exercice.get_number_of_char(v[0], v[1]) for v in values]
+  File "C:\Users\salma\OneDrive\Bureau\Polytechnique\chapitre-04-Szgl003\test_exercice.py", line 59, in <listcomp>
+    output = [exercice.get_number_of_char(v[0], v[1]) for v in values]
+AttributeError: module 'exercice' has no attribute 'get_number_of_char'
+
+======================================================================
+ERROR: test_get_number_of_words (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\salma\OneDrive\Bureau\Polytechnique\chapitre-04-Szgl003\test_exercice.py", line 75, in test_get_number_of_words
+    output = [exercice.get_number_of_words(v[0], v[1]) for v in values]
+  File "C:\Users\salma\OneDrive\Bureau\Polytechnique\chapitre-04-Szgl003\test_exercice.py", line 75, in <listcomp>
+    output = [exercice.get_number_of_words(v[0], v[1]) for v in values]
+AttributeError: module 'exercice' has no attribute 'get_number_of_words'
+
+======================================================================
+ERROR: test_replace_char (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\salma\OneDrive\Bureau\Polytechnique\chapitre-04-Szgl003\test_exercice.py", line 43, in test_replace_char
+    output = [exercice.replace_char(v[0], v[1], v[2]) for v in values]
+  File "C:\Users\salma\OneDrive\Bureau\Polytechnique\chapitre-04-Szgl003\test_exercice.py", line 43, in <listcomp>
+    output = [exercice.replace_char(v[0], v[1], v[2]) for v in values]
+AttributeError: module 'exercice' has no attribute 'replace_char'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=3)
